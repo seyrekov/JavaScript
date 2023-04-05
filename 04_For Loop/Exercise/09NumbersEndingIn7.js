@@ -1,0 +1,10 @@
+function nums(input) {
+    for (let index = 1; index < 1000; index++) {
+        let ourNum = index;
+        if(index % 10 == 7){
+            console.log(index);
+        }
+        
+    }
+}
+nums()
