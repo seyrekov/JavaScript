@@ -31,5 +31,7 @@ for (let index = 2; index <= input.length; index++){
     averageWins = (wins / tournaments) * 100
 
 }
-return `Final points: ${finalPoints}\nAverage points: ${Math.floor(averagePoints)}\n${averageWins.toFixed(2)}%`;
+console.log(`Final points: ${finalPoints}`);
+console.log(`Average points: ${Math.floor(averagePoints)}`);
+console.log(`${averageWins.toFixed(2)}%`);
 }
