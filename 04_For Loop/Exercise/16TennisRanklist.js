@@ -33,3 +33,5 @@ for (let index = 2; index <= input.length; index++){
 }
 return `Final points: ${finalPoints}\nAverage points: ${Math.floor(averagePoints)}\n${averageWins.toFixed(2)}%`;
 }
+
+module.exports = tennis;
