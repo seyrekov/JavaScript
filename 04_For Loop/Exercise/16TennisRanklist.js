@@ -35,9 +35,3 @@ console.log(`Final points: ${finalPoints}`);
 console.log(`Average points: ${Math.floor(averagePoints)}`);
 console.log(`${averageWins.toFixed(2)}%`);
 }
-tennis(["4",
-"750",
-"SF",
-"W",
-"SF",
-"W"])
