@@ -1,5 +1,5 @@
 const assert = require('assert');
-const tennis = require('./tennis');
+const tennis = require('./16TennisRanklist');
 
 describe('tennis', function() {
   it('should return the expected output for the given input', function() {
