@@ -11,3 +11,5 @@ Scenario: User successfully navigates through the website
   And the user goes back to the product page
   Then the user should be redirected to the inventory page again
   And the inventory container should still be visible
+
+  
