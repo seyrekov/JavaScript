@@ -20,9 +20,10 @@ module.exports = {
     config.video = false;
     config.defaultCommandTimeout = 5000;
     config.pageLoadTimeout = 10000;
+    ignoreTestFiles: ["*.js", "*.md"];
     config.supportFile = "cypress/support/US1-TS1.1-Navigation-HP-SU.steps.js";
     config.testingType = "e2e";
-    
+  
     return config;
   },
 
